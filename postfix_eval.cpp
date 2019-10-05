@@ -10,7 +10,10 @@ double eval_postfix(string s)
     {
         if(v[i].type=="number")
         {
-            result.push_back(stod(v[i].val));
+        	int size = v[i].val.length()+1;
+        	char c[size+1];
+        	v[i].val.copy(c, size+1);
+            result.push_back(atof(c));
         }
         else if(v[i].type=="operator")
         {
