@@ -9,7 +9,7 @@ Then the tokenized string is converted to postfix from infix using the Shunting-
 To build, use `make` and run the project by `./calc` (This is compiled with GCC 9.1.0)
 
 ## Example
-`./calc`
+`$./calc`
 
 `->1+  2*8*max(5,7)`
 
