@@ -16,4 +16,7 @@ To build, use `make` and run the project by `./calc` (This is compiled with GCC 
 `->113`
 
 `->`
+## To-be done:
+1. Error handling
+2. User defined functions(maybe)
 #### Thanks for reading!
