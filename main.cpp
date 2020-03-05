@@ -31,9 +31,9 @@ int main(int argc, char** argv)
 		ofstream out_file("result.txt");
 		while(getline(in_file, s))
 		{
-			out_file<<eval_postfix(s)<<"\n";
+			out_file<<s<<" = "<<eval_postfix(s)<<"\n";
 		}
-		cout<<"results have been written in results.txt\n";
+		cout<<"results have been written in result.txt\n";
 	}
 	else if(argc == 3)
 	{
@@ -43,7 +43,7 @@ int main(int argc, char** argv)
 		ofstream out_file(outp);
 		while(getline(in_file, s))
 		{
-			out_file<<eval_postfix(s)<<"\n";
+			out_file<<s<<" = "<<eval_postfix(s)<<"\n";
 		}
 		cout<<"results have been written in "<<outp<<"\n";
 	}
